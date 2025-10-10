@@ -49,7 +49,7 @@ git init
 git add .
 git commit -m "Initial commit: Energy Data Explorer v1.0.0"
 git branch -M main
-git remote add origin https://github.com/VOTRE_USERNAME/energy-data-explorer.git
+git remote add origin https://github.com/ImadAAmara1/energy-data-explorer.git
 git push -u origin main
 ```
 
@@ -58,7 +58,7 @@ git push -u origin main
 1. Settings > Pages
 2. Source: "GitHub Actions"
 3. Attendre 2-3 minutes
-4. ✅ Site live à: `https://VOTRE_USERNAME.github.io/energy-data-explorer/`
+4. ✅ Site live à: `https://ImadAAmara1.github.io/energy-data-explorer/`
 
 ---
 

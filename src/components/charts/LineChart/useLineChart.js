@@ -30,7 +30,11 @@ export function useLineChart() {
       const height = 500;
       const margin = { top: 60, right: 100, bottom: 50, left: 70 };
 
-      svg.attr("width", width).attr("height", height);
+      svg
+        .attr("viewBox", `0 0 ${width} ${height}`)
+        .attr("preserveAspectRatio", "xMidYMid meet")
+        .style("max-width", "100%")
+        .style("height", "auto");
 
       const chart = svg
         .append("g")

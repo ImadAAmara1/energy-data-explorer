@@ -45,7 +45,7 @@ export function BarChart({ data, selectedCountries }) {
   return (
     <div className="relative w-full flex flex-col">
       {/* Bouton de contrôle en haut à droite */}
-      <div className="flex justify-end mb-4">
+      <div className="flex justify-center md:justify-end mb-4">
         <button
           onClick={handleStartRace}
           className={`flex items-center gap-2 px-5 py-2.5 rounded-lg text-sm font-medium transition-all shadow-md hover:shadow-lg ${
@@ -84,7 +84,9 @@ export function BarChart({ data, selectedCountries }) {
         </button>
       </div>
 
-      <svg ref={svgRef} className="w-full h-auto"></svg>
+      <div className="overflow-x-auto">
+        <svg ref={svgRef} className="w-full h-auto min-w-[300px]"></svg>
+      </div>
       <div
         ref={tooltipRef}
         className="absolute bg-white text-gray-700 text-sm shadow-xl rounded-lg px-4 py-3 pointer-events-none opacity-0 transition-all duration-200 border border-gray-200 min-w-48 backdrop-blur-sm"

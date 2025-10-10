@@ -34,7 +34,11 @@ export function useBarChart() {
       const height = 500;
       const margin = { top: 60, right: 100, bottom: 50, left: 150 };
 
-      svg.attr("width", width).attr("height", height);
+      svg
+        .attr("viewBox", `0 0 ${width} ${height}`)
+        .attr("preserveAspectRatio", "xMidYMid meet")
+        .style("max-width", "100%")
+        .style("height", "auto");
 
       let chart = svg.select("g.chart-group");
       if (chart.empty()) {

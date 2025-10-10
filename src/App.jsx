@@ -167,7 +167,7 @@ function App() {
           />
 
           {/* CONTENU GRAPHIQUE - Montre le chargement si nécessaire */}
-          <div className="flex-1 p-5 space-y-5">
+          <div className="flex-1 p-3 md:p-5 space-y-3 md:space-y-5">
             <ChartContainer>
               {renderChartContent()} {/* 🎯 Ici le chargement s'affiche */}
             </ChartContainer>
