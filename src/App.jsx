@@ -20,6 +20,7 @@ function App() {
     "China",
   ]);
   const [chartType, setChartType] = useState("line");
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const { data, loading, error } = useCSVData(source, selectedCountries);
 
@@ -74,9 +75,35 @@ function App() {
       {/* HEADER - Toujours visible */}
       <Header />
 
-      <div className="flex-1 flex">
-        {/* PANEAU LATÉRAL - Toujours visible */}
-        <div className="w-72 bg-white shadow-sm p-4 flex flex-col space-y-3 border-r border-gray-200">
+      <div className="flex-1 flex relative">
+        {/* Bouton Menu Mobile */}
+        <button
+          onClick={() => setSidebarOpen(!sidebarOpen)}
+          className="lg:hidden fixed bottom-6 right-6 z-50 bg-green-600 text-white p-4 rounded-full shadow-lg hover:bg-green-700 transition-all"
+          aria-label="Toggle menu"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor">
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+          </svg>
+        </button>
+
+        {/* Overlay Mobile */}
+        {sidebarOpen && (
+          <div
+            className="lg:hidden fixed inset-0 bg-black bg-opacity-50 z-30"
+            onClick={() => setSidebarOpen(false)}
+          />
+        )}
+
+        {/* PANEAU LATÉRAL - Responsive */}
+        <div className={`
+          fixed lg:relative
+          inset-y-0 left-0
+          z-40 lg:z-0
+          w-72 bg-white shadow-sm p-4 flex flex-col space-y-3 border-r border-gray-200
+          transform transition-transform duration-300 ease-in-out
+          ${sidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}
+        `}>
           {/* Sélecteur de source - Toujours visible */}
           <div className="flex flex-col gap-1.5">
             <label className="font-semibold uppercase tracking-wide text-xs text-gray-700">

@@ -6,8 +6,8 @@ export function GraphHeader({
   dataLoading,
 }) {
   return (
-    <div className="bg-white border-b border-gray-200 px-6 py-4">
-      <div className="flex items-center justify-between">
+    <div className="bg-white border-b border-gray-200 px-4 md:px-6 py-4">
+      <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
         {/* Titre et sous-titre avec indicateur de chargement */}
         <div className="flex-1">
           <div className="flex items-center gap-3">
@@ -21,7 +21,7 @@ export function GraphHeader({
 
         {/* Boutons de sélection de graphique - Désactivés pendant le chargement */}
         <div
-          className={`flex gap-1 bg-gray-100 rounded-lg p-1 transition-all ${
+          className={`flex gap-1 bg-gray-100 rounded-lg p-1 transition-all w-full lg:w-auto ${
             dataLoading ? "opacity-50" : ""
           }`}
         >
