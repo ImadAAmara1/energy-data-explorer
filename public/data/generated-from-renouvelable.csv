@@ -1,0 +1,436 @@
+Entity,Year,Electricity
+Brazil,1985,181.44212
+Brazil,1986,185.61295
+Brazil,1987,189.16571
+Brazil,1988,202.43279
+Brazil,1989,208.09317
+Brazil,1990,210.56706
+Brazil,1991,221.78162
+Brazil,1992,228.27237
+Brazil,1993,240.04893
+Brazil,1994,248.09332
+Brazil,1995,259.49884
+Brazil,1996,272.4905
+Brazil,1997,286.35547
+Brazil,1998,298.9794
+Brazil,1999,301.37802
+Brazil,2000,312.26
+Brazil,2001,276.93
+Brazil,2002,296.42
+Brazil,2003,317.62
+Brazil,2004,333.38
+Brazil,2005,351.19
+Brazil,2006,363.89
+Brazil,2007,392.74
+Brazil,2008,390.53
+Brazil,2009,415.11
+Brazil,2010,437.41
+Brazil,2011,463.66
+Brazil,2012,456.16
+Brazil,2013,438.54
+Brazil,2014,432.75
+Brazil,2015,431.31
+Brazil,2016,465.82
+China,1985,92.38756
+China,1986,94.548645
+China,1987,100.02428
+China,1988,109.16802
+China,1989,118.40898
+China,1990,126.812
+China,1991,124.76404
+China,1992,130.9334
+China,1993,152.17928
+China,1994,168.2778
+China,1995,194.21716
+China,1996,189.60594
+China,1997,198.91098
+China,1998,201.73955
+China,1999,199.59074
+China,2000,225.56
+China,2001,280.73
+China,2002,291.41
+China,2003,287.28
+China,2004,357.43
+China,2005,404.37
+China,2006,446.72
+China,2007,500.71
+China,2008,665.08
+China,2009,664.39
+China,2010,786.38
+China,2011,792.38
+China,2012,999.56
+China,2013,1093.37
+China,2014,1289.23
+China,2015,1393.66
+China,2016,1522.79
+Egypt,1985,9.148
+Egypt,1986,8.972
+Egypt,1987,8.9695
+Egypt,1988,8.829
+Egypt,1989,9.487
+Egypt,1990,9.953
+Egypt,1991,9.916
+Egypt,1992,9.8
+Egypt,1993,10.0925
+Egypt,1994,10.728
+Egypt,1995,11.192
+Egypt,1996,11.484
+Egypt,1997,11.771
+Egypt,1998,12.1045
+Egypt,1999,13.4525
+Egypt,2000,14.26
+Egypt,2001,14.59
+Egypt,2002,14.2
+Egypt,2003,13.23
+Egypt,2004,13.33
+Egypt,2005,13.15
+Egypt,2006,13.39
+Egypt,2007,14.88
+Egypt,2008,16.03
+Egypt,2009,14.81
+Egypt,2010,14.39
+Egypt,2011,14.72
+Egypt,2012,14.87
+Egypt,2013,14.85
+Egypt,2014,14.76
+Egypt,2015,15.61
+Egypt,2016,15.83
+France,1985,63.568153
+France,1986,64.145805
+France,1987,72.248604
+France,1988,78.29525
+France,1989,48.478447
+France,1990,54.62
+France,1991,58.43
+France,1992,69.62
+France,1993,65.27
+France,1994,79.19
+France,1995,73.66
+France,1996,67.1
+France,1997,64.79
+France,1998,63.44
+France,1999,73.71
+France,2000,67.83
+France,2001,76.09
+France,2002,62.69
+France,2003,61.47
+France,2004,62.42
+France,2005,54.98
+France,2006,60.91
+France,2007,64.3
+France,2008,72.33
+France,2009,68.15
+France,2010,76.68
+France,2011,66.02
+France,2012,85.25
+France,2013,99.43
+France,2014,94.03
+France,2015,91.84
+France,2016,99
+Germany,1985,19.04468
+Germany,1986,20.16855
+Germany,1987,21.79082
+Germany,1988,21.725273
+Germany,1989,20.018997
+Germany,1990,19.1
+Germany,1991,16.98
+Germany,1992,19.73
+Germany,1993,20.52
+Germany,1994,23.43
+Germany,1995,25.92
+Germany,1996,26.55
+Germany,1997,23.05
+Germany,1998,24.88
+Germany,1999,28.71
+Germany,2000,35.41
+Germany,2001,37.88
+Germany,2002,44.49
+Germany,2003,46.67
+Germany,2004,57.97
+Germany,2005,63.43
+Germany,2006,72.56
+Germany,2007,89.44
+Germany,2008,94.37
+Germany,2009,96.08
+Germany,2010,105.41
+Germany,2011,124.43
+Germany,2012,143.4
+Germany,2013,151.95
+Germany,2014,161.93
+Germany,2015,188.14
+Germany,2016,189.13
+Kenya,2000,1.74
+Kenya,2001,2.86
+Kenya,2002,3.95
+Kenya,2003,4.49
+Kenya,2004,4.34
+Kenya,2005,4.47
+Kenya,2006,4.72
+Kenya,2007,4.94
+Kenya,2008,4.47
+Kenya,2009,3.97
+Kenya,2010,5.33
+Kenya,2011,5.42
+Kenya,2012,6.33
+Kenya,2013,6.33
+Kenya,2014,7.03
+Kenya,2015,8.81
+Kenya,2016,8.64
+Morocco,1985,0.486
+Morocco,1986,0.643
+Morocco,1987,0.825
+Morocco,1988,0.936
+Morocco,1989,1.157
+Morocco,1990,1.22
+Morocco,1991,1.226
+Morocco,1992,0.964
+Morocco,1993,0.443
+Morocco,1994,0.84
+Morocco,1995,0.611
+Morocco,1996,1.957
+Morocco,1997,2.083
+Morocco,1998,1.777
+Morocco,1999,0.825
+Morocco,2000,0.77
+Morocco,2001,1.07
+Morocco,2002,1.03
+Morocco,2003,1.64
+Morocco,2004,1.79
+Morocco,2005,1.64
+Morocco,2006,1.78
+Morocco,2007,1.61
+Morocco,2008,1.67
+Morocco,2009,3.34
+Morocco,2010,4.29
+Morocco,2011,2.83
+Morocco,2012,2.55
+Morocco,2013,4.35
+Morocco,2014,3.96
+Morocco,2015,4.81
+Morocco,2016,5.09
+Niger,2000,0
+Niger,2001,0
+Niger,2002,0
+Niger,2003,0
+Niger,2004,0
+Niger,2005,0
+Niger,2006,0
+Niger,2007,0
+Niger,2008,0
+Niger,2009,0
+Niger,2010,0
+Niger,2011,0
+Niger,2012,0
+Niger,2013,0
+Niger,2014,0.01
+Niger,2015,0.01
+Niger,2016,0.01
+Norway,1985,102.388
+Norway,1986,96.227
+Norway,1987,103.29401
+Norway,1988,108.884
+Norway,1989,118.429
+Norway,1990,121.35
+Norway,1991,110.34
+Norway,1992,116.9
+Norway,1993,119.48
+Norway,1994,111.92
+Norway,1995,121.83
+Norway,1996,104.17
+Norway,1997,110.03
+Norway,1998,115.98
+Norway,1999,121.75
+Norway,2000,142.11
+Norway,2001,120.74
+Norway,2002,129.7
+Norway,2003,106.03
+Norway,2004,109.39
+Norway,2005,136.52
+Norway,2006,120.4
+Norway,2007,134.94
+Norway,2008,140.35
+Norway,2009,126.48
+Norway,2010,117.96
+Norway,2011,121.91
+Norway,2012,143.59
+Norway,2013,130.42
+Norway,2014,137.94
+Norway,2015,140.07
+Norway,2016,145.15
+Russia,1985,159.72595
+Russia,1986,164.33096
+Russia,1987,162.52785
+Russia,1988,160.92361
+Russia,1989,159.72595
+Russia,1990,166.91061
+Russia,1991,168.159
+Russia,1992,172.657
+Russia,1993,174.349
+Russia,1994,175.987
+Russia,1995,176.31421
+Russia,1996,154.36601
+Russia,1997,157.49101
+Russia,1998,158.555
+Russia,1999,160.55
+Russia,2000,164.16
+Russia,2001,174.01
+Russia,2002,162.35
+Russia,2003,156.05
+Russia,2004,176.14
+Russia,2005,173.07
+Russia,2006,173.81
+Russia,2007,177.53
+Russia,2008,165.28
+Russia,2009,174.7
+Russia,2010,167.02
+Russia,2011,163.62
+Russia,2012,163.96
+Russia,2013,181.64
+Russia,2014,174.21
+Russia,2015,168.96
+Russia,2016,185.68
+Saudi Arabia,1985,0
+Saudi Arabia,1986,0
+Saudi Arabia,1987,0
+Saudi Arabia,1988,0
+Saudi Arabia,1989,0
+Saudi Arabia,1990,0
+Saudi Arabia,1991,0
+Saudi Arabia,1992,0
+Saudi Arabia,1993,0
+Saudi Arabia,1994,0
+Saudi Arabia,1995,0
+Saudi Arabia,1996,0
+Saudi Arabia,1997,0
+Saudi Arabia,1998,0
+Saudi Arabia,1999,0
+Saudi Arabia,2000,0
+Saudi Arabia,2001,0
+Saudi Arabia,2002,0
+Saudi Arabia,2003,0
+Saudi Arabia,2004,0
+Saudi Arabia,2005,0
+Saudi Arabia,2006,0
+Saudi Arabia,2007,0
+Saudi Arabia,2008,0
+Saudi Arabia,2009,0
+Saudi Arabia,2010,0
+Saudi Arabia,2011,0.01
+Saudi Arabia,2012,0.03
+Saudi Arabia,2013,0.04
+Saudi Arabia,2014,0.05
+Saudi Arabia,2015,0.05
+Saudi Arabia,2016,0.05
+Spain,1985,31.898
+Spain,1986,27.032
+Spain,1987,27.946
+Spain,1988,35.919
+Spain,1989,19.946062
+Spain,1990,26.03
+Spain,1991,27.81
+Spain,1992,19.6
+Spain,1993,25.13
+Spain,1994,29.06
+Spain,1995,24.38
+Spain,1996,41.25
+Spain,1997,36.97
+Spain,1998,36.89
+Spain,1999,27.21
+Spain,2000,34.49
+Spain,2001,49.3
+Spain,2002,33.17
+Spain,2003,55.75
+Spain,2004,50.13
+Spain,2005,42.27
+Spain,2006,52.15
+Spain,2007,58.3
+Spain,2008,62.15
+Spain,2009,74.08
+Spain,2010,97.77
+Spain,2011,87.53
+Spain,2012,86.97
+Spain,2013,111.41
+Spain,2014,110.26
+Spain,2015,97.08
+Spain,2016,104.63
+Tunisia,2000,0.08
+Tunisia,2001,0.07
+Tunisia,2002,0.09
+Tunisia,2003,0.19
+Tunisia,2004,0.19
+Tunisia,2005,0.18
+Tunisia,2006,0.13
+Tunisia,2007,0.09
+Tunisia,2008,0.07
+Tunisia,2009,0.18
+Tunisia,2010,0.19
+Tunisia,2011,0.16
+Tunisia,2012,0.31
+Tunisia,2013,0.43
+Tunisia,2014,0.59
+Tunisia,2015,0.58
+Tunisia,2016,0.63
+Turkey,1985,12.0508995
+Turkey,1986,11.9162
+Turkey,1987,18.6757
+Turkey,1988,29.018
+Turkey,1989,18.0022
+Turkey,1990,23.23
+Turkey,1991,22.8
+Turkey,1992,26.69
+Turkey,1993,34.09
+Turkey,1994,30.72
+Turkey,1995,35.85
+Turkey,1996,40.73
+Turkey,1997,40.19
+Turkey,1998,42.56
+Turkey,1999,34.91
+Turkey,2000,31.16
+Turkey,2001,24.34
+Turkey,2002,33.96
+Turkey,2003,35.56
+Turkey,2004,46.31
+Turkey,2005,39.74
+Turkey,2006,44.52
+Turkey,2007,36.46
+Turkey,2008,34.42
+Turkey,2009,38.15
+Turkey,2010,55.72
+Turkey,2011,58.09
+Turkey,2012,65.21
+Turkey,2013,69.22
+Turkey,2014,52.62
+Turkey,2015,83.65
+Turkey,2016,90.24
+United States,1985,323.59183
+United States,1986,335.69504
+United States,1987,298.0898
+United States,1988,270.78876
+United States,1989,325.96497
+United States,1990,352.9278
+United States,1991,351.3368
+United States,1992,319.56662
+United States,1993,349.687
+United States,1994,329.67996
+United States,1995,378.1956
+United States,1996,416.1835
+United States,1997,425.64716
+United States,1998,391.28732
+United States,1999,388.13458
+United States,2000,350.93
+United States,2001,280.06
+United States,2002,336.34
+United States,2003,349.18
+United States,2004,345.14
+United States,2005,353.04
+United States,2006,381.16
+United States,2007,347.91
+United States,2008,377.11
+United States,2009,415.56
+United States,2010,424.48
+United States,2011,509.74
+United States,2012,492.32
+United States,2013,520.38
+United States,2014,546.83
+United States,2015,556.49
+United States,2016,624.91
