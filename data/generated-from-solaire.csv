@@ -1,0 +1,436 @@
+Entity,Year,Electricity
+Brazil,1985,0
+Brazil,1986,0
+Brazil,1987,0
+Brazil,1988,0
+Brazil,1989,0
+Brazil,1990,0
+Brazil,1991,0
+Brazil,1992,0
+Brazil,1993,0
+Brazil,1994,0
+Brazil,1995,0
+Brazil,1996,0
+Brazil,1997,0
+Brazil,1998,0
+Brazil,1999,0
+Brazil,2000,0
+Brazil,2001,0
+Brazil,2002,0
+Brazil,2003,0
+Brazil,2004,0
+Brazil,2005,0
+Brazil,2006,0
+Brazil,2007,0
+Brazil,2008,0
+Brazil,2009,0
+Brazil,2010,0
+Brazil,2011,0
+Brazil,2012,0
+Brazil,2013,0
+Brazil,2014,0.02
+Brazil,2015,0.06
+Brazil,2016,0.09
+China,1985,0
+China,1986,0
+China,1987,0
+China,1988,0
+China,1989,0
+China,1990,0.002
+China,1991,0.002
+China,1992,0.003
+China,1993,0.004
+China,1994,0.005
+China,1995,0.007
+China,1996,0.009
+China,1997,0.011
+China,1998,0.014
+China,1999,0.017
+China,2000,0.02
+China,2001,0.03
+China,2002,0.05
+China,2003,0.06
+China,2004,0.08
+China,2005,0.08
+China,2006,0.09
+China,2007,0.11
+China,2008,0.15
+China,2009,0.28
+China,2010,0.7
+China,2011,2.61
+China,2012,3.59
+China,2013,8.37
+China,2014,23.51
+China,2015,39.48
+China,2016,66.53
+Egypt,1985,0
+Egypt,1986,0
+Egypt,1987,0
+Egypt,1988,0
+Egypt,1989,0
+Egypt,1990,0
+Egypt,1991,0
+Egypt,1992,0
+Egypt,1993,0
+Egypt,1994,0
+Egypt,1995,0
+Egypt,1996,0
+Egypt,1997,0
+Egypt,1998,0
+Egypt,1999,0
+Egypt,2000,0
+Egypt,2001,0
+Egypt,2002,0
+Egypt,2003,0
+Egypt,2004,0
+Egypt,2005,0
+Egypt,2006,0
+Egypt,2007,0
+Egypt,2008,0
+Egypt,2009,0
+Egypt,2010,0.03
+Egypt,2011,0.24
+Egypt,2012,0.5
+Egypt,2013,0.03
+Egypt,2014,0.14
+Egypt,2015,0.04
+Egypt,2016,0.23
+France,1985,0
+France,1986,0
+France,1987,0
+France,1988,0
+France,1989,0
+France,1990,0
+France,1991,0
+France,1992,0
+France,1993,0
+France,1994,0
+France,1995,0
+France,1996,0
+France,1997,0
+France,1998,0
+France,1999,0
+France,2000,0.01
+France,2001,0.01
+France,2002,0.01
+France,2003,0.01
+France,2004,0.01
+France,2005,0.01
+France,2006,0.01
+France,2007,0.02
+France,2008,0.04
+France,2009,0.17
+France,2010,0.62
+France,2011,2.33
+France,2012,4.43
+France,2013,5.19
+France,2014,6.39
+France,2015,7.75
+France,2016,8.66
+Germany,1985,0
+Germany,1986,0
+Germany,1987,0
+Germany,1988,0
+Germany,1989,0
+Germany,1990,0
+Germany,1991,0
+Germany,1992,0
+Germany,1993,0
+Germany,1994,0
+Germany,1995,0
+Germany,1996,0.01
+Germany,1997,0.01
+Germany,1998,0.01
+Germany,1999,0.02
+Germany,2000,0
+Germany,2001,0.1
+Germany,2002,0.2
+Germany,2003,0.31
+Germany,2004,0.56
+Germany,2005,1.31
+Germany,2006,2.27
+Germany,2007,3.14
+Germany,2008,4.51
+Germany,2009,6.72
+Germany,2010,11.96
+Germany,2011,19.99
+Germany,2012,26.74
+Germany,2013,30.62
+Germany,2014,35.45
+Germany,2015,38.08
+Germany,2016,37.56
+Kenya,2000,0
+Kenya,2001,0
+Kenya,2002,0
+Kenya,2003,0
+Kenya,2004,0
+Kenya,2005,0
+Kenya,2006,0
+Kenya,2007,0
+Kenya,2008,0
+Kenya,2009,0
+Kenya,2010,0
+Kenya,2011,0.01
+Kenya,2012,0.01
+Kenya,2013,0.03
+Kenya,2014,0.05
+Kenya,2015,0.05
+Kenya,2016,0.06
+Morocco,1985,0
+Morocco,1986,0
+Morocco,1987,0
+Morocco,1988,0
+Morocco,1989,0
+Morocco,1990,0
+Morocco,1991,0
+Morocco,1992,0
+Morocco,1993,0
+Morocco,1994,0
+Morocco,1995,0
+Morocco,1996,0
+Morocco,1997,0
+Morocco,1998,0
+Morocco,1999,0
+Morocco,2000,0
+Morocco,2001,0
+Morocco,2002,0
+Morocco,2003,0
+Morocco,2004,0
+Morocco,2005,0
+Morocco,2006,0
+Morocco,2007,0
+Morocco,2008,0
+Morocco,2009,0
+Morocco,2010,0
+Morocco,2011,0
+Morocco,2012,0
+Morocco,2013,0
+Morocco,2014,0
+Morocco,2015,0
+Morocco,2016,0.4
+Niger,2000,0
+Niger,2001,0
+Niger,2002,0
+Niger,2003,0
+Niger,2004,0
+Niger,2005,0
+Niger,2006,0
+Niger,2007,0
+Niger,2008,0
+Niger,2009,0
+Niger,2010,0
+Niger,2011,0
+Niger,2012,0
+Niger,2013,0
+Niger,2014,0.01
+Niger,2015,0.01
+Niger,2016,0.01
+Norway,1985,0
+Norway,1986,0
+Norway,1987,0
+Norway,1988,0
+Norway,1989,0
+Norway,1990,0
+Norway,1991,0
+Norway,1992,0
+Norway,1993,0
+Norway,1994,0
+Norway,1995,0
+Norway,1996,0
+Norway,1997,0
+Norway,1998,0
+Norway,1999,0
+Norway,2000,0
+Norway,2001,0
+Norway,2002,0
+Norway,2003,0
+Norway,2004,0
+Norway,2005,0
+Norway,2006,0
+Norway,2007,0
+Norway,2008,0
+Norway,2009,0
+Norway,2010,0
+Norway,2011,0
+Norway,2012,0
+Norway,2013,0
+Norway,2014,0
+Norway,2015,0
+Norway,2016,0
+Russia,1985,0
+Russia,1986,0
+Russia,1987,0
+Russia,1988,0
+Russia,1989,0
+Russia,1990,0
+Russia,1991,0
+Russia,1992,0
+Russia,1993,0
+Russia,1994,0
+Russia,1995,0
+Russia,1996,0
+Russia,1997,0
+Russia,1998,0
+Russia,1999,0
+Russia,2000,0
+Russia,2001,0
+Russia,2002,0
+Russia,2003,0
+Russia,2004,0
+Russia,2005,0
+Russia,2006,0
+Russia,2007,0
+Russia,2008,0
+Russia,2009,0
+Russia,2010,0
+Russia,2011,0
+Russia,2012,0
+Russia,2013,0.01
+Russia,2014,0.16
+Russia,2015,0.34
+Russia,2016,0.47
+Saudi Arabia,1985,0
+Saudi Arabia,1986,0
+Saudi Arabia,1987,0
+Saudi Arabia,1988,0
+Saudi Arabia,1989,0
+Saudi Arabia,1990,0
+Saudi Arabia,1991,0
+Saudi Arabia,1992,0
+Saudi Arabia,1993,0
+Saudi Arabia,1994,0
+Saudi Arabia,1995,0
+Saudi Arabia,1996,0
+Saudi Arabia,1997,0
+Saudi Arabia,1998,0
+Saudi Arabia,1999,0
+Saudi Arabia,2000,0
+Saudi Arabia,2001,0
+Saudi Arabia,2002,0
+Saudi Arabia,2003,0
+Saudi Arabia,2004,0
+Saudi Arabia,2005,0
+Saudi Arabia,2006,0
+Saudi Arabia,2007,0
+Saudi Arabia,2008,0
+Saudi Arabia,2009,0
+Saudi Arabia,2010,0
+Saudi Arabia,2011,0.01
+Saudi Arabia,2012,0.03
+Saudi Arabia,2013,0.04
+Saudi Arabia,2014,0.05
+Saudi Arabia,2015,0.05
+Saudi Arabia,2016,0.05
+Spain,1985,0
+Spain,1986,0
+Spain,1987,0
+Spain,1988,0
+Spain,1989,0.006060606
+Spain,1990,0.01
+Spain,1991,0.01
+Spain,1992,0.01
+Spain,1993,0.01
+Spain,1994,0.01
+Spain,1995,0.02
+Spain,1996,0.02
+Spain,1997,0.02
+Spain,1998,0.02
+Spain,1999,0.03
+Spain,2000,0.01
+Spain,2001,0.02
+Spain,2002,0.02
+Spain,2003,0.02
+Spain,2004,0.02
+Spain,2005,0.05
+Spain,2006,0.12
+Spain,2007,0.52
+Spain,2008,2.58
+Spain,2009,6.06
+Spain,2010,7.19
+Spain,2011,9.4
+Spain,2012,11.97
+Spain,2013,13.1
+Spain,2014,13.67
+Spain,2015,13.86
+Spain,2016,13.64
+Tunisia,2000,0
+Tunisia,2001,0
+Tunisia,2002,0
+Tunisia,2003,0
+Tunisia,2004,0
+Tunisia,2005,0
+Tunisia,2006,0
+Tunisia,2007,0
+Tunisia,2008,0
+Tunisia,2009,0
+Tunisia,2010,0
+Tunisia,2011,0
+Tunisia,2012,0
+Tunisia,2013,0.01
+Tunisia,2014,0.03
+Tunisia,2015,0.06
+Tunisia,2016,0.11
+Turkey,1985,0
+Turkey,1986,0
+Turkey,1987,0
+Turkey,1988,0
+Turkey,1989,0
+Turkey,1990,0
+Turkey,1991,0
+Turkey,1992,0
+Turkey,1993,0
+Turkey,1994,0
+Turkey,1995,0
+Turkey,1996,0
+Turkey,1997,0
+Turkey,1998,0
+Turkey,1999,0
+Turkey,2000,0
+Turkey,2001,0
+Turkey,2002,0
+Turkey,2003,0
+Turkey,2004,0
+Turkey,2005,0
+Turkey,2006,0
+Turkey,2007,0
+Turkey,2008,0
+Turkey,2009,0
+Turkey,2010,0
+Turkey,2011,0
+Turkey,2012,0
+Turkey,2013,0
+Turkey,2014,0.02
+Turkey,2015,0.19
+Turkey,2016,1.04
+United States,1985,0.0107373735
+United States,1986,0.014173738
+United States,1987,0.01060303
+United States,1988,0.009185859
+United States,1989,0.2531323
+United States,1990,0.37079495
+United States,1991,0.4782529
+United States,1992,0.40884447
+United States,1993,0.47516188
+United States,1994,0.5018728
+United States,1995,0.5144716
+United States,1996,0.54134125
+United States,1997,0.5326957
+United States,1998,0.52465934
+United States,1999,0.5183421
+United States,2000,0.49
+United States,2001,0.54
+United States,2002,0.55
+United States,2003,0.53
+United States,2004,0.58
+United States,2005,0.55
+United States,2006,0.51
+United States,2007,0.61
+United States,2008,0.86
+United States,2009,0.89
+United States,2010,1.21
+United States,2011,1.82
+United States,2012,4.33
+United States,2013,9.04
+United States,2014,28.92
+United States,2015,39.03
+United States,2016,54.87
