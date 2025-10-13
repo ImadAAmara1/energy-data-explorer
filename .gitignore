@@ -1,3 +1,9 @@
+# Dependencies
+node_modules
+dist
+dist-ssr
+*.local
+
 # Logs
 logs
 *.log
@@ -6,12 +12,6 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
-# Dependencies
-node_modules
-dist
-dist-ssr
-*.local
 
 # Editor directories and files
 .vscode/*
@@ -31,21 +31,6 @@ dist-ssr
 .env.test.local
 .env.production.local
 
-# Build files
-build
-.cache
-
 # OS files
 Thumbs.db
 .DS_Store
-
-# Temporary files
-*.tmp
-*.temp
-.temp
-.tmp
-
-# Documentation drafts (keep final versions)
-ANALYSE_PROJET.md
-DESIGN_IMPROVEMENTS.md
-PRESENTATION_JURY.md

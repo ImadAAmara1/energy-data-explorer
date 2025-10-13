@@ -26,9 +26,19 @@ export function useLineChart() {
 
       if (!data || data.length === 0) return;
 
+      // Traiter les données d'abord pour obtenir la liste des pays
+      const { dataByCountry, countries } = processChartData(
+        data,
+        selectedCountries
+      );
+      
+      // Calculer la largeur nécessaire pour la légende
+      const maxCountryNameLength = Math.max(...countries.map(c => c.length));
+      const legendWidth = Math.max(120, maxCountryNameLength * 8 + 40);
+      
       const width = 800;
       const height = 500;
-      const margin = { top: 60, right: 100, bottom: 50, left: 70 };
+      const margin = { top: 60, right: legendWidth, bottom: 50, left: 70 };
 
       svg
         .attr("viewBox", `0 0 ${width} ${height}`)
@@ -42,11 +52,6 @@ export function useLineChart() {
 
       const innerWidth = width - margin.left - margin.right;
       const innerHeight = height - margin.top - margin.bottom;
-
-      const { dataByCountry, countries } = processChartData(
-        data,
-        selectedCountries
-      );
       const colorScale = createColorScale(countries);
 
       // Échelles X et Y
@@ -143,8 +148,9 @@ export function useLineChart() {
           .append("text")
           .attr("x", 20)
           .attr("y", 12)
-          .attr("font-size", "12px")
+          .attr("font-size", "11px")
           .attr("fill", "#374151")
+          .attr("font-weight", "500")
           .text(country);
 
         legendItem

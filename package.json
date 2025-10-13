@@ -1,19 +1,28 @@
 {
   "name": "energy-data-explorer",
   "version": "1.0.0",
-  "description": "Interactive platform for visualizing global electricity production data by country and energy source",
-  "author": "Amara Imad",
+  "description": "Plateforme interactive de visualisation des données énergétiques mondiales avec React, D3.js et Tailwind CSS",
+  "author": {
+    "name": "Imad Amara",
+    "email": "contact@imadamara.dev",
+    "url": "https://github.com/ImadAAmara1"
+  },
+  "homepage": "https://ImadAAmara1.github.io/energy-data-explorer",
   "license": "MIT",
   "type": "module",
   "keywords": [
-    "energy",
+    "energy-data",
     "data-visualization",
     "react",
     "d3js",
-    "charts",
-    "electricity",
+    "interactive-charts",
+    "electricity-production",
     "renewable-energy",
-    "dashboard"
+    "dashboard",
+    "portfolio-project",
+    "professional-demo",
+    "web-development",
+    "frontend"
   ],
   "repository": {
     "type": "git",
