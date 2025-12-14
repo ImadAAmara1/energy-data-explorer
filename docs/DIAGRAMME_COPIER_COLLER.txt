@@ -1,0 +1,80 @@
+=== COPIEZ EXACTEMENT CE QUI EST ENTRE LES LIGNES ===
+
+graph TD
+    A[energy-data-explorer] --> B[public/data]
+    A --> C[src]
+    A --> D[.github]
+    A --> E[config]
+    B --> B1[10 fichiers CSV]
+    C --> C1[components]
+    C --> C2[hooks]
+    C --> C3[constants]
+    C --> C4[App.jsx]
+    C1 --> C1A[charts]
+    C1 --> C1B[layout]
+    C1 --> C1C[ui]
+    C1A --> C1A1[LineChart]
+    C1A --> C1A2[BarChart]
+    C2 --> C2A[useCSVData.js]
+    C2 --> C2B[useLineChart.js]
+    C2 --> C2C[useBarChart.js]
+    style A fill:#4CAF50,color:#fff
+    style C fill:#2196F3,color:#fff
+    style C1 fill:#FF9800,color:#fff
+    style C1A fill:#E91E63,color:#fff
+    style C2 fill:#9C27B0,color:#fff
+
+=== FIN ===
+
+=== FLUX DE DONNÉES ===
+
+graph LR
+    A[Utilisateur] --> B[App.jsx]
+    B --> C[useCSVData]
+    C --> D[D3.csv]
+    D --> E[Donnees CSV]
+    E --> F[LineChart]
+    F --> G[SVG Rendu]
+    G --> A
+    style B fill:#4CAF50,color:#fff
+    style C fill:#2196F3,color:#fff
+    style F fill:#FF9800,color:#fff
+
+=== FIN ===
+
+=== ARCHITECTURE EN COUCHES ===
+
+graph TB
+    A[App.jsx]
+    B[Components]
+    C[Charts]
+    D[Hooks]
+    E[Data]
+    A --> B
+    A --> C
+    A --> D
+    C --> D
+    D --> E
+    style A fill:#4CAF50,color:#fff
+    style B fill:#2196F3,color:#fff
+    style C fill:#FF9800,color:#fff
+    style D fill:#9C27B0,color:#fff
+    style E fill:#607D8B,color:#fff
+
+=== FIN ===
+
+=== CI/CD PIPELINE ===
+
+graph LR
+    A[git push] --> B[GitHub Actions]
+    B --> C[npm install]
+    C --> D[npm build]
+    D --> E[Deploy]
+    E --> F[GitHub Pages]
+    F --> G[Live Site]
+    style A fill:#4CAF50,color:#fff
+    style B fill:#2196F3,color:#fff
+    style D fill:#FF9800,color:#fff
+    style G fill:#E91E63,color:#fff
+
+=== FIN ===
