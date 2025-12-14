@@ -14,11 +14,11 @@ import { SOURCE_DATA } from "./constants/sourceData";
 function App() {
   const [source, setSource] = useState("renouvelable");
   const [selectedCountries, setSelectedCountries] = useState([
+    "Morocco",
     "France",
     "Germany",
     "United States",
     "China",
-    "Morocco",
   ]);
   const [chartType, setChartType] = useState("line");
   const [sidebarOpen, setSidebarOpen] = useState(false);
