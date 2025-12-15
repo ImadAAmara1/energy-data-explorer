@@ -27,7 +27,13 @@ function App() {
 
   const onChangeSource = (e) => {
     setSource(e.target.value);
-    setSelectedCountries(["France", "Germany", "United States", "China"]);
+    setSelectedCountries([
+      "Morocco",
+      "France",
+      "Germany",
+      "United States",
+      "China",
+    ]);
     // Fermer le sidebar sur mobile après sélection
     if (window.innerWidth < 1024) {
       setSidebarOpen(false);
