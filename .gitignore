@@ -35,5 +35,7 @@ lerna-debug.log*
 Thumbs.db
 .DS_Store
 
-# Personal preparation files
+# Personal preparation files (keep local only)
 INTERVIEW_PREP.md
+GUIDE_ENTRETIEN.md
+RAPPORT_TECHNIQUE_UM6P.md
